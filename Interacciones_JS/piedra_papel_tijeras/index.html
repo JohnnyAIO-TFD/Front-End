@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Pieda, papel y tijeras</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+    <h1>Piedra, Papel y Tijeras</h1>
+    </header>
+
+    <div class="tabla_de_puntuaciones">
+        <div id="etiqueta_del_usuario" class="placa">PC</div>
+        <div id="etiqueta_del_computador" class="placa">Usuario</div>
+
+        <span id="puntuacion_del_computador">0</span>:
+        <span id="puntuacion_de_usuario">0</span>
+    </div>
+
+    <p id="resultado">No ha empezado la partida</p>
+
+    <div class="opciones">
+        
+        <div class="opcion" id="Papel"> 
+            <img src="folder1/paper.png" alt="" width="80" onclick="juego(0)">
+        </div>
+        <div class="opcion" id="Piedra"> 
+            <img src="folder1/rock.png" alt="" width="80" onclick="juego(1)">
+        </div>
+        <div class="opcion" id="Tijera"> 
+            <img src="folder1/scissors.png" alt="" width="80" onclick="juego(2)">
+        </div>
+
+    </div>
+
+    <p id="select">Selecciona una opción</p>
+
+    <script src="app.js"></script>
+</body>
+</html>

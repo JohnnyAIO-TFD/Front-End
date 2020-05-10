@@ -1,0 +1,128 @@
+1 - Plantilla de HTML: Pàgina de Curriculum
+
+2 - Lìnea Interno - Externo: Se usan co un archivo externo, con el formato .css, donde se le agrega en el bloque head.
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+CSS EN LINEA se agrega en cualquier etiqueta, pero tenemos que evitar.
+
+Flexible y lo mas fàcil
+
+Se utiliza <style>  </style>
+
+
+3 - Creando un archivo CSS: Creas un archivo CSS y lo vinculas
+
+4 - Sintaxis y Selectores: Selectores para determinar el html a declarar. Propiedad: Valor
+Class: Aplicar el mismo estilo para todas las páginas
+ID: Son similares, pero se pueden utilizar una vez por página
+
+5 - Pseudo Clases: Son palabras claves para apuntar un estado especifico del elemento
+houver: para resaltar sobre el curso
+
+6 - Colores en CSS: color: Hexadecimal, RGB, palabras en inglès Coolors app
+
+7 - Aplicando Selectores y Colores: Aplicamos en el archivo style.css
+
+8 - Cascada, Herencia y Especifidad: Se ejecuta de arriba hacia abajo, es un error utilizar el selector 2 veces.
+Es necesario organizar los selectores.
+Los enlaces tienen su color especifico, tenemos que cambiarlos.
+
+9 - Familia de Fuentes: Es el estudio del Diseño, y un tipo de comunicar con los lectores, hay conjunto de fuentes.
+Fuentes archivos indivuales.
+Serif: Georgia, Rockwell, Times New Roman.
+Sans Serif: Verdana, Arial
+Script: Brush Script, Freestyle Script.
+Decorative: Papyrus
+Monospace: Courier New, Consolas, Lucida Console.
+
+font-family: "Helvetica Neue"
+Fuentes Web: Archivos Presinstalados en la Web, no todos SO tienen las fuentes instaladas.
+
+Página: CSS Font-Stack
+
+font-family: "helvetiva", "Noasarck", Arial; Las fuentes generales se declaran sin las comillas.
+
+10 - Font-Size: Tamaño de fuente, algunos son valores relativos, absolutos.
+Relativos: De acuerdo al tamaño de la página
+Absolutos: No heredan.
+
+Las pantallas se miden en pixeles (px). No usar decimales. Por predertimado es 16px.
+EM es para referir por la dimensión del tamaño, es predertimado del navegador.
+Página: Codrops
+
+11 - Font-Style & Font-Weight
+
+100 = Ligero
+900 = Gruesa
+font-Weight: bold, normal;
+font-style: italic, oblique, normal;
+
+12 - Propiedades de Texto: Existen propiedades relacionadas con la tipografía
+color, Line-height: Altura de espacios entre la líneas.
+Text-Decoration: overline; underline; line-throught
+Text-Transform: Uppercase, none, lowercase.
+Text-Align: center, left, right;
+
+13 - Elementos en Bloque en línea: Dos tipos de elementos en HTML, Bloques y Líneas.
+Bloques: Son aquellos por defectos que poseen Altura = Contenido entre etiquetas. div, p, 
+Línea: Son Altura-Ancho de su contenido. a, span, strong.
+display: none;
+display:block;
+display: inline-block;
+
+14 - Modelo de Caja: Describe el tamaño de los elementos, es un cuadro rectangular.
+El espacio entre algunos de los elementos son predeterminados.
+
+Ancho, Alto, Relleno, Margen, Borde. 10px, 20%, 3em
+
+Contenido: 
+span{
+    width: 100px;
+    height: 100px;
+    display: block;
+    //display: inline-block;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+}
+
+Relleno: Ajustar el espacio dentro del Relleno. padding: 2px 2px 2px 2px; padding: 4px 5px 6px 3px;
+
+Margen: Ajusta el espacio alrededor del elemento
+margin-top: 2px; margin-right: 4px; margin: 10px 4px 5px 6px; margin: 10px;
+
+Borde: Lo que se muestra entre margen y relleno
+margin-top: 2px; margin-right: 4px; margin: 10px 4px 5px 6px; margin: 10px;
+
+15 - Maquetación, Evitar que el texto se extienda en la pagina
+max-width: Exige que la tamaño se adapte de acuerdo a la resolución de la pantalla
+
+16 - Espacio y relleno: Los practicamos con el padding, margin y color
+
+17 - Floats: La forma de reorganizar como se muestran los elementos. 
+
+padre{
+    float:left;
+    margin-right: 15px;
+}
+
+Borrar el float, clear: both;
+overflow: auto; overflow: hidden;
+
+18 - Practicando con Imagenes: Las imagenes se pueden optimizar con CSS, pero es necesario hacerlo con Phoshop o Paint, ajustando el tamaño
+
+19 - Corrección de Cuadros: Practicamos con practica.html
+
+20 - Columnnas: 
+
+
+
+
+
+
+
+
+

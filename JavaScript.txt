@@ -1,0 +1,45 @@
+1 - Introducción:
+
+JavaScript se puede programar del lado del Cliente o Servidor. Contiene Orientado a Objetos. Te ayuda para las aplicaciones Moviles.
+Con IONIC. Electron. AngularJS.
+Sintáxis Básicas, tenemos que estar familitado con HTML y CSS. Es el top de Lenguajes con má pagados.
+
+Historia:
+
+Javascript es creado en en 1995 por Brendan Eich, un programador
+estadounidense que en ese entonces trabajaba para Netscape
+Comunications Corporation, que fue la empresa que creó el primer
+navegador comercial, Netscape Navigator. El lenguaje tuvo como
+nombre inicial “Mocha”, luego fue cambiado a “Livescript” y luego debido
+a que el navegador Netscape empezó a
+ser compatible con tecnologías propias de Java (otro lenguaje de
+programación), se cambió finalmente el nombre de nuevo, esta vez a
+“Javascript” lo cual genera confusión, por la similitud del nombre, se
+puede llegar a pensar que Javascript puede ser una extensión de Java o
+que son lenguajes con mucha similitud lo cual es falso.
+En aquellos tiempos cuando Javascript estaba cerca de ser creado, las
+páginas web a pesar de ser exageradamente simples a comparación de
+las actuales, empezaron a tener cierto “dinamismo” con el usuario y se
+necesitaba un lenguaje que permitiera materializar tal dinamismo con
+mayor rapidez.
+Javascript fue diseñado para ser utilizado del lado del cliente, aunque
+gracias a tecnologías como Node.js sirve del lado del servidor.
+La primera versión de JavaScript fue un completo éxito y Netscape
+Navigator 3.0 ya incorporaba la siguiente versión del lenguaje, la versión
+1.1. Al mismo tiempo, Microsoft lanzó JScript con su navegador Internet
+Explorer 3. JScript era una copia de JavaScript al que le cambiaron el
+nombre para evitar problemas legales.
+Para evitar una guerra de tecnologías, Netscape decidió que lo mejor
+sería estandarizar el lenguaje JavaScript. De esta forma, en 1997 se
+envió la especificación JavaScript 1.1 al organismo ECMA European
+Computer Manufacturers Association).
+ECMA creó el comité TC39 con el objetivo de "estandarizar de un
+lenguaje de script multiplataforma e independiente de cualquier
+empresa". El primer estándar que creó el comité TC39 se denominó
+ECMA-262, en el que se definió por primera vez el lenguaje ECMAScript.
+Por este motivo, algunos programadores prefieren la denominación
+ECMAScript para referirse al lenguaje JavaScript. De hecho, JavaScript
+no es más que la implementación que realizó la empresa Netscape del
+estándar ECMAScript.
+
+2 - Sintaxis: Fueron los que practicamos con Sintaxis.html

@@ -1,0 +1,86 @@
+You will learn responsive web sites, with flexbox, without using 
+
+steps to begin using flexblox
+
+Determine which elements you want to control with flexbox
+Wrap them inside an outer container
+Set the display property of the container to flex
+
+Listado de CSS:
+
+display : flex
+
+
+Two Flow Directions
+
+display: flex;
+flex-flow: column;
+justify-content: space-between;
+
+
+flex-flow: row -> The main axis is horizontal & the cross axis is vertival
+flex-flow: column -> tha main axis is vertical & yhe cross axis is horizontal
+
+
+Some of flexbox properties affect elements only along the main axis
+The other flexbox properties affect elements only along the cross axis
+
+flex-wrap: wrap-reverse;
+
+** Justify-content **
+
+How the remaining space in the container will be distributed around the flex elements if there is any remaining spaces in the container.
+
+Accepts 5 values:
+
+Flex - start : aling items to the beginning of the flex-container
+Flex-end : aling items to the end of flex container
+Center: Centers the content inside the flex container
+Space-between : Separates the content with equal spaces with no spaces at the beginning or at the end of the container.
+Space-around: Separates the content with equal spaces and add spaces at the beginning and at the end of the container.
+
+** Align-items **
+
+Two major differences betwenn justify-content & align-items
+
+Justify-content work along the main axis while align content work along the cross-axis
+The values are a little a different
+
+Align-itemscontent accepts 4 values
+
+Flex-start: Aligns items along the cross axis to the start of the flex-container
+Flex-end: align items along the cross axis to the end of flex container
+Center: centers the content inside the flex container along the cross axis
+strech (default): streches the elements to fill up the container
+
+
+
+alig-items & aling-self are similar in
+
+1 - both work on the cross axis
+2 - they accepts the same values
+
+---> and they are different in
+
+1 - aling self affect a single fex 
+
+
+Flex - Grow
+
+Flex - Shrink
+
+
+Flex-basis
+
+Very similar to the 'width' property
+
+Set the initial size of the flex element before distributing any free space of the container
+
+It accepts values in (pixels - % - ems - rems..)
+
+
+
+
+
+
+

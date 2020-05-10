@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Cambiar texto -->
+    <h1 id="título1">Esto es un título</h1>
+    <p id="párrafo1">Esto es un párrafo</p>
+    <input type="button" value="cambiar título" onclick="cambiar_titulo1()">
+    <input type="button" value="cambiar párrafo" onclick="cambiar_parrafo()">
+    <br><br>
+
+
+    <!-- Cambiar imagen -->
+    <img src="img/phi.jpg" width=300 onclick="cambiar_imagen()">
+    <br><br>
+    <input type="button" value="cambiar imagen" onclick="cambiar_imagen()">
+
+
+
+
+    <!-- Validando test-->
+    <h3>Ingrese un número que esté en el rango de 1 y 10</h3>
+    <input type="text" id='cuadro1'>
+    <input type="button" value="evaluar" onclick="validar_respuesta()"> 
+    <p id="respuesta"></p>
+    <br>
+
+
+
+    <!-- Interaccion con el Mouse -->
+    <img src="img/Amarillo.png" onmouseover="cambiar_color(this)" onmouseout="cambiar_color(this)" >
+
+
+
+    <!-- Cambiar color parrafo  Interacciones con CSS-->
+    <h2 id="párrafo2">Puede que todo este párrafo cambie de color</h2>
+    <img src="img/boton.png" onclick="cambiar_color_parrafo()">
+
+
+
+    <!-- botones redondos -->
+
+    <center>
+    <h3>Responder la siguiente pregunta</h3>
+    <h3>¿Es el oro un material conductor?</h3>
+    <img src="img/oro.png" width="300"><br>
+    Sí <input type="radio" name="pregunta1" onclick="test(1)">
+    No <input type="radio" name="pregunta1" onclick="test(0)">
+    <p id="párrafo3"></p>
+    </center>
+
+    
+
+
+
+    <script src="interacciones.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+1 - Introducción
+
+HTML: Lenguaje marcado de Hipertexto, se utilizan etiquetas
+CSS: Estilo de la Pàgina web, atributos
+JS: Comportamiento de la pàgina web, variables
+
+2 - Definiciones Básicas
+
+Etiquetas: <p> Esto <br> es un parrafo </p>
+Atributos: son palabras claves que comportan a las etiquetas
+<etiqueta nombre - atributo = atributos> </etiqueta>
+Globales disponibles para todas las etiquetas
+
+3 - Estructura Básica: Es el ejemplo1.HTML
+
+4 - Live Server: Es una extensión que nos permite trabajar online, por cada modificación, se le hara los cambios automaticamentes.
+
+5 - Estilos: Es el ejemplo2.html
+
+6 - Atributos: Comentarios: <!-- ->
+Rutas Relativas: Incluye la pàgina que esta en el directorio
+Rutas Absolutas: Incluye toda la direcciòn de la pàgina 
+
+7 - Etiqueta DIV: Son para crear las estructuras del bloque
+
+8 - Listas: Son las listas que estan ordenadas, <ul>, <ol>, type, start
+
+9 - Tablas: <tr> Representa Filas, <td>, Representa las celdas, <th>, Para los subtitulos
+
+10 - Imagenes y Videos: <img src>
+<video src="" controls>

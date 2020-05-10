@@ -1,0 +1,95 @@
+/*Paleta de Colores
+#20B2D42 - Dark Blue
+#8D99A3 - Light Blue
+#EDF2F4 - Blue / White
+#ef233c - Red
+*/
+
+/*Estilos Globales*/
+
+.Columna-Der{
+    width: 30%;
+    float: left;
+    min-height: 175px;
+}
+
+.Columna-Izq{
+    width: 70%;
+    float: left;
+    min-height: 175px;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+.imagen{
+    border-radius: 6px;
+    width: 400px;
+}
+.content-wrap{
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: auto;
+}
+
+footer{
+    text-align: center;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+h1,h2 {
+    font-family: 'Caveat', cursive;
+}
+h1{
+    font-size:80px;
+}
+
+h2{
+    font-size:40px;
+}
+
+a{
+    color: #ef233c;
+
+}
+
+.contacto a {
+    background: white;
+    padding: 40px;
+    display: inline-block;
+}
+a:hover{
+    text-decoration: none;
+}
+
+/* Header y Footer */
+header, footer {
+    background:#2B2D42 ;
+    color: #EDF2F4;
+}
+header h1, header h2{
+    color: #EDF2F4;
+}
+/*Experiencia Laboral */
+.Experiencia{
+    background: #EDF2F4;
+}
+
+/*Educación */
+.Educacion{
+    background: #8D99A3;
+}
+
+h1, h2, p{
+    margin: 0;
+}

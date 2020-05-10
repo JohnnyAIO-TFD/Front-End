@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+
+
+#cuadrado1{
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    display: inline-block;
+  
+}
+#contador{
+    display: inline-block;
+}
+#cuadrado2{
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+    display: inline-block;
+}
+
+.imagen{
+    cursor: pointer;
+    padding: 0px;
+    margin: 30px;
+    border-radius: 25%;
+    width: 200px;
+    height: 135px;
+    
+}
+
+.agrandar{
+    width: 215px;
+    height: 145px;
+}
